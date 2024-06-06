@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", sans-serif;
+    margin: 70px 0px 0px 0px;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--font-primary-color);
+    font-weight: 400;
+}
+
+:root {
+    --background-color: #1E1E1E;
+    --font-primary-color: #FFFFFF;
+    --primary-color: #FD6F00;
+    --max-width: 1040px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: var(--font-primary-color);
+}
+
+@media only screen and (max-width: 1060px) {
+
+    .bullets {
+        width: 75%;
+    }
+
+    :root {
+        --max-width: 90%;
+    }
+
+    .expertise {
+        display:none !important;
+    }
+    .banner-container {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .experience-body {
+        flex-direction: column;
+    }
+
+    .left-experience {
+        padding: 5% 0% 5% 0% !important;
+    }
+
+    .right-experience {
+        padding: 5% 0% 5% 0% !important;
+    }
+
+    .porfolio-image {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+    
+    .nav-container {
+        width: 100%;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 10px;
+        align-self: flex-start;
+        width: 100%; 
+    }
+
+    .home {
+        align-self: flex-start; 
+        justify-content: center;
+    }
+
+    .cv {
+        align-self: flex-start; 
+        justify-content: center;
+    }
+    
+
+    .profile-image {
+        width: 90% !important;
+        height: 90% !important;
+        background-size: 90% !important;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me-right {
+        align-items: flex-start !important;
+    }
+
+    .years {
+        text-align: left !important;
+    }
+
+    .experience-text {
+        text-align: left !important;
+    }
+
+    .award-block {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-menu {
+        display: none !important;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bullets {
+        display: none !important;
+    }
+    .description {
+        padding-bottom: 50px;
+    }
+
+    
+
+    .buttons {
+        width: 90% !important;
+    }
+}

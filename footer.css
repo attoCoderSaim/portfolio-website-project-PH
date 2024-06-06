@@ -1,0 +1,47 @@
+.footer-holder {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer-bottom {
+    background-color: #121212;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    width: 50%;
+    align-content: center;
+}
+
+.email-icon {
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+

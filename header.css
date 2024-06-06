@@ -1,0 +1,228 @@
+.nav {
+    display: flex;
+    max-width: var(--max-width);
+    gap: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    opacity: 0px;
+    margin: 0px auto;
+    
+}
+
+
+.nav-items {
+    display: flex;
+    padding: 7px 0px 7px 0px;
+    gap: 24px;
+    opacity: 0px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 93px;
+    height: 48px;
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FD6F00;
+}
+
+.home {
+    display: flex;
+    /* flex-direction: column;  */
+    align-items: flex-start; 
+    gap: 10px; 
+    align-content: center;
+    
+}
+
+.cv-container {
+    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv {
+    width: 188px;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FD6F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container {
+    max-width: var(--max-width);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left {
+    padding-top: 118px;
+    /* width: Hug (619px)px; */
+    /* height: Hug (461.75px)px; */
+    top: 254px;
+    left: 200px;
+    gap: 32px;
+    opacity: 0px;
+}
+
+.naming-container {
+    gap: 12px;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47.4px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.dist {
+    color: #FD6F00;
+
+}
+
+.description {
+    height: 42px;
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.33px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    opacity: 50%;
+    padding-top: 12px;
+}
+
+
+
+.bullets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bullet-item {
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.44px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    width: 82px;
+    height: 28px;
+}
+
+.design {
+    width: 82px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.development {
+    width: 163px;
+height: 28px;
+gap: 0px;
+opacity: 0px;
+}
+
+.webflow {
+    width: 108px;
+height: 28px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.buttons {
+    width: 367px;
+    height: 82px;
+    border: 2px solid #FFFFFF;
+    background: #FFFFFF1A;
+    border-radius: 60px;
+    border-image-slice: 1; 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.portfolio-button {
+    background: #FD6F00;
+    border-radius: 60px;
+    width: 208px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 10px;
+    border: none;
+}
+
+.potfolio-text {
+    font-family: "Rubik", sans-serif;
+    font-size: 25.69px;
+    font-weight: 400;
+    line-height: 30.44px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.portfolio-icon {
+    height: 17.5px;
+    width: 17.5px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.hire-me-button {
+    padding: 10px 30px 10px 20px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 25.69px;
+    font-weight: 400;
+    line-height: 30.44px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.social-buttons {
+width: 205px;
+height: 32.48px;
+gap: 32px;
+display: flex;
+padding-top: 20px;
+align-content: center;
+justify-content: center;
+}
+
+.profile-image {
+    /* width: 538px; */
+    height: 580px;
+    background-image: url(./images/profile/black-circle.png);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 450px;
+    /* background-position-y: 100px; */
+}
